@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit migrate"
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,8 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.39.2",
-    "pg": "^8.13.1"
+    "openai": "^4.83.0",
+    "pg": "^8.13.1",
+    "readline-sync": "^1.4.10"
   }
 }
